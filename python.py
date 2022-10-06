@@ -1,5 +1,4 @@
 
-
 def loopp(lisst):
     for i in lisst:
         if type(i) is int:
@@ -10,6 +9,6 @@ def loopp(lisst):
             print(f'Буква {i}')
 
 loopp([1,2,'f',6,-5])
-
 loopp([-1,-2,'f',-6,-5])
+
 
